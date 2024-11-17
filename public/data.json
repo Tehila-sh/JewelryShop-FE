@@ -1,0 +1,1453 @@
+{
+        "jewelries": [
+                {
+                        "id": "1",
+                        "type": "Rings",
+                        "name": "Tennis Ring",
+                        "degem": "R2472",
+                        "color": "Red Gold",
+                        "price": 5000,
+                        "img": "/assets/rings/ring2.jpg"
+                },
+                {
+                        "id": "33",
+                        "type": "Earrings",
+                        "name": "Mosaic Earrings",
+                        "degem": "D3148",
+                        "color": "Gold",
+                        "price": 700,
+                        "img": "/assets/earrings/earrings8.png"
+                },
+                {
+                        "id": "4",
+                        "type": "Rings",
+                        "name": "Diamond Ring",
+                        "degem": "R2475",
+                        "color": "Gold",
+                        "price": 800,
+                        "img": "/assets/rings/ring5.jpg"
+                },
+                {
+                        "id": "62",
+                        "type": "Necklaces",
+                        "name": "Enchanting Adventures Necklace",
+                        "degem": "C4512",
+                        "color": "Red Gold",
+                        "price": 240,
+                        "img": "/assets/chains/chain12.jpg"
+                },
+                {
+                        "id": "63",
+                        "type": "Necklaces",
+                        "name": "Energetic Charms Necklace",
+                        "degem": "C45813",
+                        "color": "Silver and Gold",
+                        "price": 4320,
+                        "img": "/assets/chains/chain13.jpg"
+                },
+                {
+                        "id": "64",
+                        "type": "Necklaces",
+                        "name": "Ancient Wisdom Necklace",
+                        "degem": "C4514",
+                        "color": "Rose Gold With Pearl",
+                        "price": 5430,
+                        "img": "/assets/chains/chain14.JPG"
+                },
+                {
+                        "id": "65",
+                        "type": "Necklaces",
+                        "name": "Unique Art Necklace",
+                        "degem": "C4515",
+                        "color": "Rose Gold With Pearl",
+                        "price": 420,
+                        "img": "/assets/chains/chain15.JPG"
+                },
+                {
+                        "id": "7",
+                        "type": "Rings",
+                        "name": "Ruby Ring",
+                        "degem": "R2478",
+                        "color": "Silver",
+                        "price": 3000,
+                        "img": "/assets/rings/ring8.PNG"
+                },
+                {
+                        "id": "8",
+                        "type": "Rings",
+                        "name": "Zircon Ring",
+                        "degem": "R2479",
+                        "color": "Gold",
+                        "price": 6000,
+                        "img": "/assets/rings/ring9.PNG"
+                },
+                {
+                        "id": "79",
+                        "type": "Bracelets",
+                        "name": "Positive Energy Bracelet",
+                        "degem": "B8974",
+                        "color": "Gold",
+                        "price": 1900,
+                        "img": "/assets/bracelets/bracelet4.PNG"
+                },
+                {
+                        "id": "163",
+                        "type": "Gifts",
+                        "name": "Silver and sapphire jewelry gift",
+                        "degem": "G1221",
+                        "color": "Silver",
+                        "price": 300,
+                        "img": "/assets/gift/gift21.PNG"
+                },
+                {
+                        "id": "164",
+                        "type": "Gifts",
+                        "name": "Crystal jewelry gift",
+                        "degem": "G1222",
+                        "color": "Gold",
+                        "price": 530,
+                        "img": "/assets/gift/gift22.PNG"
+                },
+                {
+                        "id": "132",
+                        "type": "Sets",
+                        "name": "Glass Falafel Sets",
+                        "degem": "S9078",
+                        "color": "silver",
+                        "price": 400,
+                        "img": "/assets/sets/sets8.PNG"
+                },
+                {
+                        "id": "133",
+                        "type": "Sets",
+                        "name": "Neon Bow Sets",
+                        "degem": "S9079",
+                        "color": "silver",
+                        "price": 9000,
+                        "img": "/assets/sets/sets9.PNG"
+                },
+                {
+                        "id": "107",
+                        "type": "Watches",
+                        "name": "Galaxy Chronos Watch",
+                        "degem": "W3239",
+                        "color": "Rose Gold With Pearl",
+                        "price": 9000,
+                        "img": "/assets/watches/watches9.PNG"
+                },
+                {
+                        "id": "108",
+                        "type": "Watches",
+                        "name": "Avocado Time Watch",
+                        "degem": "W3210",
+                        "color": "Rose Gold With Pearl",
+                        "price": 220,
+                        "img": "/assets/watches/watches10.PNG"
+                },
+                {
+                        "id": "130",
+                        "type": "Sets",
+                        "name": " Lavender Look Sets",
+                        "degem": "S9076",
+                        "color": "Silver",
+                        "price": 300,
+                        "img": "/assets/sets/sets6.PNG"
+                },
+                {
+                        "id": "131",
+                        "type": "Sets",
+                        "name": "Mirror Mirage Sets",
+                        "degem": "S9077",
+                        "color": "silver",
+                        "price": 920,
+                        "img": "/assets/sets/sets7.PNG"
+                },
+                {
+                        "id": "156",
+                        "type": "Gifts",
+                        "name": "Beach scene jewelry gift",
+                        "degem": "G1214",
+                        "color": "Gold",
+                        "price": 900,
+                        "img": "/assets/gift/gift14.PNG"
+                },
+                {
+                        "id": "157",
+                        "type": "Gifts",
+                        "name": "Pink twilight jewelry gift",
+                        "degem": "G1215",
+                        "color": "Rose Gold And Silver",
+                        "price": 100,
+                        "img": "/assets/gift/gift15.PNG"
+                },
+                {
+                        "id": "80",
+                        "type": "Bracelets",
+                        "name": "True Friendship Bracelet",
+                        "degem": "B8975",
+                        "color": "Gold",
+                        "price": 260,
+                        "img": "/assets/bracelets/bracelet5.PNG"
+                },
+                {
+                        "id": "10",
+                        "type": "Rings",
+                        "name": "Emerald Ring",
+                        "degem": "R2411",
+                        "color": "Silver",
+                        "price": 7000,
+                        "img": "/assets/rings/ring11.PNG"
+                },
+                {
+                        "id": "11",
+                        "type": "Rings",
+                        "name": "Tourmaline Ring",
+                        "degem": "R2412",
+                        "color": "Silver",
+                        "price": 5500,
+                        "img": "/assets/rings/ring12.PNG"
+                },
+                {
+                        "id": "110",
+                        "type": "Watches",
+                        "name": "Quintessence Watch",
+                        "degem": "W3212",
+                        "color": "Rose Gold With Pearl",
+                        "price": 240,
+                        "img": "/assets/watches/watches12.PNG"
+                },
+                {
+                        "id": "111",
+                        "type": "Watches",
+                        "name": "Plexus Watch",
+                        "degem": "W3213",
+                        "color": "Rose Gold With Pearl",
+                        "price": 2600,
+                        "img": "/assets/watches/watches13.PNG"
+                },
+                {
+                        "id": "112",
+                        "type": "Watches",
+                        "name": "Ransom Time Watch",
+                        "degem": "W3214",
+                        "color": "Rose Gold With Pearl",
+                        "price": 400,
+                        "img": "/assets/watches/watches14.PNG"
+                },
+                {
+                        "id": "113",
+                        "type": "Watches",
+                        "name": "Chronos Watch",
+                        "degem": "W3215",
+                        "color": "Rose Gold With Pearl",
+                        "price": 920,
+                        "img": "/assets/watches/watches15.PNG"
+                },
+                {
+                        "id": "12",
+                        "type": "Rings",
+                        "name": "Sapphiregold Ring",
+                        "degem": "R2413",
+                        "color": "Silver",
+                        "price": 250,
+                        "img": "/assets/rings/ring13.PNG"
+                },
+                {
+                        "id": "13",
+                        "type": "Rings",
+                        "name": "Tanzanite Ring",
+                        "degem": "R2414",
+                        "color": "Silver",
+                        "price": 8500,
+                        "img": "/assets/rings/ring14.PNG"
+                },
+                {
+                        "id": "3",
+                        "type": "Rings",
+                        "name": "Sapphire Ring",
+                        "degem": "R2474",
+                        "color": "Gold",
+                        "price": 150,
+                        "img": "/assets/rings/ring4.jpg"
+                },
+                {
+                        "id": "30",
+                        "type": "Earrings",
+                        "name": "Gold Earrings with Pearl",
+                        "degem": "D3145",
+                        "color": "Gold",
+                        "price": 3200,
+                        "img": "/assets/earrings/earrings5.jpg"
+                },
+                {
+                        "id": "31",
+                        "type": "Earrings",
+                        "name": "Pearl Earrings",
+                        "degem": "D3146",
+                        "color": "Gold",
+                        "price": 6700,
+                        "img": "/assets/earrings/earrings6.jpg"
+                },
+                {
+                        "id": "57",
+                        "type": "Necklaces",
+                        "name": "Wonder Necklace",
+                        "degem": "C4587",
+                        "color": "Silver",
+                        "price": 4300,
+                        "img": "/assets/chains/chain7.PNG"
+                },
+                {
+                        "id": "58",
+                        "type": "Necklaces",
+                        "name": "Modern Art Necklace",
+                        "degem": "C4588",
+                        "color": "Gold",
+                        "price": 530,
+                        "img": "/assets/chains/chain8.PNG"
+                },
+                {
+                        "id": "59",
+                        "type": "Necklaces",
+                        "name": "Necklace of Happiness",
+                        "degem": "C4589",
+                        "color": "Gold",
+                        "price": 5430,
+                        "img": "/assets/chains/chain9.PNG"
+                },
+                {
+                        "id": "17",
+                        "type": "Rings",
+                        "name": "Prinite Ring",
+                        "degem": "R2418",
+                        "color": "Gold",
+                        "price": 9000,
+                        "img": "/assets/rings/ring18.PNG"
+                },
+                {
+                        "id": "18",
+                        "type": "Rings",
+                        "name": "Spinel Ring",
+                        "degem": "R2419",
+                        "color": "Gold",
+                        "price": 220,
+                        "img": "/assets/rings/ring19.PNG"
+                },
+                {
+                        "id": "50",
+                        "type": "Earrings",
+                        "name": "Dreamy Earrings",
+                        "degem": "D3125",
+                        "color": "Gold",
+                        "price": 2670,
+                        "img": "/assets/earrings/earrings25.jpg"
+                },
+                {
+                        "id": "51",
+                        "type": "Earrings",
+                        "name": "Star Earrings",
+                        "degem": "D3126",
+                        "color": "Gold",
+                        "price": 270,
+                        "img": "/assets/earrings/earrings26.jpg"
+                },
+                {
+                        "id": "165",
+                        "type": "Gifts",
+                        "name": "Superhero flashlight jewelry gift",
+                        "degem": "G1223",
+                        "color": "Rose Gold",
+                        "price": 212,
+                        "img": "/assets/gift/gift23.PNG"
+                },
+                {
+                        "id": "166",
+                        "type": "Gifts",
+                        "name": "Natural sapphire jewelry gift",
+                        "degem": "G1224",
+                        "color": "Gold",
+                        "price": 220,
+                        "img": "/assets/gift/gift24.PNG"
+                },
+                {
+                        "id": "167",
+                        "type": "Gifts",
+                        "name": "Natalie jewelry gift",
+                        "degem": "G1225",
+                        "color": "Gold",
+                        "price": 920,
+                        "img": "/assets/gift/gift25.PNG"
+                },
+                {
+                        "id": "66",
+                        "type": "Necklaces",
+                        "name": "Fascinating Journey Necklace",
+                        "degem": "C4516",
+                        "color": "Rose Gold With Pearl",
+                        "price": 4200,
+                        "img": "/assets/chains/chain16.JPG"
+                },
+                {
+                        "id": "67",
+                        "type": "Necklaces",
+                        "name": "Endless Beauty Necklace",
+                        "degem": "C4517",
+                        "color": "Rose Gold With Pearl",
+                        "price": 6770,
+                        "img": "/assets/chains/chain17.JPG"
+                },
+                {
+                        "id": "68",
+                        "type": "Necklaces",
+                        "name": "Harmony Chain",
+                        "degem": "C4518",
+                        "color": "Rose Gold With Pearl",
+                        "price": 5560,
+                        "img": "/assets/chains/chain18.JPG"
+                },
+                {
+                        "id": "69",
+                        "type": "Necklaces",
+                        "name": "Serenity Strand",
+                        "degem": "C4519",
+                        "color": "Rose Gold With Pearl",
+                        "price": 3400,
+                        "img": "/assets/chains/chain19.JPG"
+                },
+                {
+                        "id": "19",
+                        "type": "Rings",
+                        "name": "Trillion Ring",
+                        "degem": "R2420",
+                        "color": "Gold",
+                        "price": 300,
+                        "img": "/assets/rings/ring20.PNG"
+                },
+                {
+                        "id": "5",
+                        "type": "Rings",
+                        "name": "Pearl Ring",
+                        "degem": "R2476",
+                        "color": "Red Gold",
+                        "price": 1200,
+                        "img": "/assets/rings/ring6.PNG"
+                },
+                {
+                        "id": "124",
+                        "type": "Watches",
+                        "name": "Trend Galaxy Whatch",
+                        "degem": "W3226",
+                        "color": "Rose Gold With Pearl",
+                        "price": 750,
+                        "img": "/assets/watches/watches26.PNG"
+                },
+                {
+                        "id": "125",
+                        "type": "Watches",
+                        "name": "Axis Watch",
+                        "degem": "W3227",
+                        "color": "Rose Gold With Pearl",
+                        "price": 300,
+                        "img": "/assets/watches/watches27.PNG"
+                },
+                {
+                        "id": "142",
+                        "type": "Sets",
+                        "name": "Sweet Life Sets",
+                        "degem": "S9018",
+                        "color": "Gold",
+                        "price": 640,
+                        "img": "/assets/sets/sets18.PNG"
+                },
+                {
+                        "id": "143",
+                        "type": "Sets",
+                        "name": " Mosaic Heels Sets",
+                        "degem": "S9019",
+                        "color": "Gold",
+                        "price": 6770,
+                        "img": "/assets/sets/sets19.PNG"
+                },
+                {
+                        "id": "144",
+                        "type": "Gifts",
+                        "name": "Olia jewelry gift",
+                        "degem": "G1232",
+                        "color": "Silver",
+                        "price": 100,
+                        "img": "/assets/gift/gift2.PNG"
+                },
+                {
+                        "id": "145",
+                        "type": "Gifts",
+                        "name": "Wonderful glass jewelry gift",
+                        "degem": "G1233",
+                        "color": "Gold",
+                        "price": 300,
+                        "img": "/assets/gift/gift3.PNG"
+                },
+                {
+                        "id": "146",
+                        "type": "Gifts",
+                        "name": "Night star jewelry",
+                        "degem": "G1234",
+                        "color": "Silver",
+                        "price": 70,
+                        "img": "/assets/gift/gift4.PNG"
+                },
+                {
+                        "id": "6",
+                        "type": "Rings",
+                        "name": "Savion Ring",
+                        "degem": "R2477",
+                        "color": "Gold",
+                        "price": 450,
+                        "img": "/assets/rings/Ring7.PNG"
+                },
+                {
+                        "id": "20",
+                        "type": "Rings",
+                        "name": "Alma Ring",
+                        "degem": "R2421",
+                        "color": "Gold",
+                        "price": 600,
+                        "img": "/assets/rings/ring21.PNG"
+                },
+                {
+                        "id": "77",
+                        "type": "Bracelets",
+                        "name": "Bright Stars Bracelet",
+                        "degem": "B8972",
+                        "color": "Red Gold",
+                        "price": 100,
+                        "img": "/assets/bracelets/bracelet2.jpg"
+                },
+                {
+                        "id": "78",
+                        "type": "Bracelets",
+                        "name": "Modern Style Bracelet",
+                        "degem": "B8973",
+                        "color": "Gold",
+                        "price": 1200,
+                        "img": "/assets/bracelets/bracelet3.jpg"
+                },
+                {
+                        "id": "54",
+                        "type": "Necklaces",
+                        "name": "Wonderful Journey Necklace",
+                        "degem": "C4584",
+                        "color": "Gold",
+                        "price": 5430,
+                        "img": "/assets/chains/chain4.jpg"
+                },
+                {
+                        "id": "55",
+                        "type": "Necklaces",
+                        "name": "Unique Personality Necklace",
+                        "degem": "C4585",
+                        "color": "Gold",
+                        "price": 750,
+                        "img": "/assets/chains/chain5.jpg"
+                },
+                {
+                        "id": "56",
+                        "type": "Necklaces",
+                        "name": "Magnificent Pearl Necklace",
+                        "degem": "C4586",
+                        "color": "Pearl",
+                        "price": 8900,
+                        "img": "/assets/chains/chain6.PNG"
+                },
+                {
+                        "id": "21",
+                        "type": "Rings",
+                        "name": "Aquamarine Ring",
+                        "degem": "R2422",
+                        "color": "Gold",
+                        "price": 800,
+                        "img": "/assets/rings/ring22.PNG"
+                },
+                {
+                        "id": "22",
+                        "type": "Rings",
+                        "name": "Diana Ring",
+                        "degem": "R2423",
+                        "color": "Silver",
+                        "price": 5000,
+                        "img": "/assets/rings/ring23.PNG"
+                },
+                {
+                        "id": "81",
+                        "type": "Bracelets",
+                        "name": "Peace and Serenity Bracelet",
+                        "degem": "B8976",
+                        "color": "Silver",
+                        "price": 200,
+                        "img": "/assets/bracelets/bracelet6.PNG"
+                },
+                {
+                        "id": "82",
+                        "type": "Bracelets",
+                        "name": "Amazing Personality Bracelet",
+                        "degem": "B8977",
+                        "color": "Red Gold",
+                        "price": 5000,
+                        "img": "/assets/bracelets/bracelet7.PNG"
+                },
+                {
+                        "id": "83",
+                        "type": "Bracelets",
+                        "name": "Unique Art Bracelet",
+                        "degem": "B8978",
+                        "color": "Red Gold",
+                        "price": 4200,
+                        "img": "/assets/bracelets/bracelet8.jpg"
+                },
+                {
+                        "id": "27",
+                        "type": "Earrings",
+                        "name": "Shiny Gold Earrings",
+                        "degem": "D3142",
+                        "color": "Gold",
+                        "price": 560,
+                        "img": "/assets/earrings/earrings2.jpg"
+                },
+                {
+                        "id": "140",
+                        "type": "Sets",
+                        "name": "Turquoise Chunk Sets",
+                        "degem": "S9016",
+                        "color": "silver",
+                        "price": 300,
+                        "img": "/assets/sets/sets16.PNG"
+                },
+                {
+                        "id": "141",
+                        "type": "Sets",
+                        "name": "Glassy Treats Sets",
+                        "degem": "S9017",
+                        "color": "Gold",
+                        "price": 700,
+                        "img": "/assets/sets/sets17.PNG"
+                },
+                {
+                        "id": "148",
+                        "type": "Gifts",
+                        "name": "Ninja Sipion jewelry gift",
+                        "degem": "G1236",
+                        "color": "Silver",
+                        "price": 80,
+                        "img": "/assets/gift/gift6.PNG"
+                },
+                {
+                        "id": "149",
+                        "type": "Gifts",
+                        "name": "Zimran exotic jewelry gift",
+                        "degem": "G1237",
+                        "color": "Gold",
+                        "price": 150,
+                        "img": "/assets/gift/gift7.PNG"
+                },
+                {
+                        "id": "23",
+                        "type": "Rings",
+                        "name": "Elizabeth Ring",
+                        "degem": "R2424",
+                        "color": "Red Gold",
+                        "price": 120,
+                        "img": "/assets/rings/ring24.PNG"
+                },
+                {
+                        "id": "24",
+                        "type": "Rings",
+                        "name": "Alice Ring",
+                        "degem": "R2425",
+                        "color": "Silver",
+                        "price": 4000,
+                        "img": "/assets/rings/ring25.PNG"
+                },
+                {
+                        "id": "25",
+                        "type": "Rings",
+                        "name": "Stone Ring",
+                        "degem": "R2426",
+                        "color": "Gold",
+                        "price": 350,
+                        "img": "/assets/rings/ring26.PNG"
+                },
+                {
+                        "id": "98",
+                        "type": "Bracelets",
+                        "name": "Stormy Sea Bracelet",
+                        "degem": "B8923",
+                        "color": "Rose Gold With Pearl",
+                        "price": 9000,
+                        "img": "/assets/bracelets/bracelet23.JPG"
+                },
+                {
+                        "id": "99",
+                        "type": "Bracelets",
+                        "name": "Elegant Style Bracelet",
+                        "degem": "B8924",
+                        "color": "Rose Gold With Pearl",
+                        "price": 9000,
+                        "img": "/assets/bracelets/bracelet24.JPG"
+                },
+                {
+                        "id": "100",
+                        "type": "Watches",
+                        "name": "Retro Robot Watch",
+                        "degem": "W3232",
+                        "color": "Rose Gold With Pearl",
+                        "price": 212,
+                        "img": "/assets/watches/watches2.PNG"
+                },
+                {
+                        "id": "101",
+                        "type": "Watches",
+                        "name": "Accelerator Watch",
+                        "degem": "W3233",
+                        "color": "Rose Gold With Pearl",
+                        "price": 100,
+                        "img": "/assets/watches/watches3.PNG"
+                },
+                {
+                        "id": "102",
+                        "type": "Watches",
+                        "name": "Infinity Time Watch",
+                        "degem": "W3234",
+                        "color": "Rose Gold With Pearl",
+                        "price": 120,
+                        "img": "/assets/watches/watches4.PNG"
+                },
+                {
+                        "id": "26",
+                        "type": "Rings",
+                        "name": "Cocktail Ring",
+                        "degem": "R2427",
+                        "color": "Silver",
+                        "price": 700,
+                        "img": "/assets/rings/ring27.PNG"
+                },
+                {
+                        "id": "34",
+                        "type": "Earrings",
+                        "name": "Hoop Earrings with Pearl",
+                        "degem": "D3149",
+                        "color": "Pearl",
+                        "price": 8900,
+                        "img": "/assets/earrings/earrings9.PNG"
+                },
+                {
+                        "id": "35",
+                        "type": "Earrings",
+                        "name": "Oxidized Silver Earrings",
+                        "degem": "D3110",
+                        "color": "Silver",
+                        "price": 800,
+                        "img": "/assets/earrings/earrings10.PNG"
+                },
+                {
+                        "id": "60",
+                        "type": "Necklaces",
+                        "name": "Charm Necklace",
+                        "degem": "C4510",
+                        "color": "Gold",
+                        "price": 5400,
+                        "img": "/assets/chains/chain10.PNG"
+                },
+                {
+                        "id": "115",
+                        "type": "Watches",
+                        "name": "WorkSphere Watch",
+                        "degem": "W3217",
+                        "color": "Rose Gold With Pearl",
+                        "price": 7030,
+                        "img": "/assets/watches/watches17.PNG"
+                },
+                {
+                        "id": "116",
+                        "type": "Watches",
+                        "name": "Quiddian Watch",
+                        "degem": "W3218",
+                        "color": "Rose Gold With Pearl",
+                        "price": 800,
+                        "img": "/assets/watches/watches18.PNG"
+                },
+                {
+                        "id": "61",
+                        "type": "Necklaces",
+                        "name": "Mysterious Enchantment Necklace",
+                        "degem": "C4511",
+                        "color": "Silver",
+                        "price": 640,
+                        "img": "/assets/chains/chain11.PNG"
+                },
+                {
+                        "id": "70",
+                        "type": "Necklaces",
+                        "name": "Enchanted Loop",
+                        "degem": "C4520",
+                        "color": "Rose Gold With Pearl",
+                        "price": 670,
+                        "img": "/assets/chains/chain20.JPG"
+                },
+                {
+                        "id": "85",
+                        "type": "Bracelets",
+                        "name": "Shining Sun Bracelet",
+                        "degem": "B8910",
+                        "color": "Gold",
+                        "price": 1900,
+                        "img": "/assets/bracelets/bracelet10.png"
+                },
+                {
+                        "id": "86",
+                        "type": "Bracelets",
+                        "name": "Surprising Smile Bracelet",
+                        "degem": "B8911",
+                        "color": "Gold",
+                        "price": 7800,
+                        "img": "/assets/bracelets/bracelet11.jpg"
+                },
+                {
+                        "id": "2",
+                        "type": "Rings",
+                        "name": "Flower-Set Ring",
+                        "degem": "R2473",
+                        "color": "Silver",
+                        "price": 350,
+                        "img": "/assets/rings/ring3.jpg"
+                },
+                {
+                        "id": "29",
+                        "type": "Earrings",
+                        "name": "Gold Hoop Earrings",
+                        "degem": "D3144",
+                        "color": "Gold",
+                        "price": 7800,
+                        "img": "/assets/earrings/earrings4.jpg"
+                },
+                {
+                        "id": "32",
+                        "type": "Earrings",
+                        "name": "Classic Gold Earrings",
+                        "degem": "D3147",
+                        "color": "Red Gold",
+                        "price": 800,
+                        "img": "/assets/earrings/earrings7.jpg"
+                },
+                {
+                        "id": "14",
+                        "type": "Rings",
+                        "name": "Opalite Ring",
+                        "degem": "R2415",
+                        "color": "Silver",
+                        "price": 100,
+                        "img": "/assets/rings/ring15.PNG"
+                },
+                {
+                        "id": "15",
+                        "type": "Rings",
+                        "name": "Opal Ring",
+                        "degem": "R2416",
+                        "color": "Gold",
+                        "price": 180,
+                        "img": "/assets/rings/ring16.PNG"
+                },
+                {
+                        "id": "16",
+                        "type": "Rings",
+                        "name": "Gold Steel Ring",
+                        "degem": "R2417",
+                        "color": "Gold",
+                        "price": 400,
+                        "img": "/assets/rings/ring17.PNG"
+                },
+                {
+                        "id": "36",
+                        "type": "Earrings",
+                        "name": "Twisted Silver Earrings",
+                        "degem": "D311",
+                        "color": "Silver",
+                        "price": 300,
+                        "img": "/assets/earrings/earrings11.PNG"
+                },
+                {
+                        "id": "37",
+                        "type": "Earrings",
+                        "name": "Floral Silver Earrings",
+                        "degem": "D3112",
+                        "color": "Silver",
+                        "price": 920,
+                        "img": "/assets/earrings/earrings12.PNG"
+                },
+                {
+                        "id": "53",
+                        "type": "Necklaces",
+                        "name": "Eternal Light Necklace",
+                        "degem": "C4583",
+                        "color": "Gold",
+                        "price": 5500,
+                        "img": "/assets/chains/chain3.jpg"
+                },
+                {
+                        "id": "88",
+                        "type": "Bracelets",
+                        "name": "Gentle Light Bracelet",
+                        "degem": "B8913",
+                        "color": "Rose Gold With Pearl",
+                        "price": 6770,
+                        "img": "/assets/bracelets/bracelet13.JPG"
+                },
+                {
+                        "id": "89",
+                        "type": "Bracelets",
+                        "name": "Positive Action Bracelet",
+                        "degem": "B8914",
+                        "color": "Rose Gold With Pearl",
+                        "price": 1990,
+                        "img": "/assets/bracelets/bracelet14.JPG"
+                },
+                {
+                        "id": "122",
+                        "type": "Watches",
+                        "name": "Trivial Watch",
+                        "degem": "W3224",
+                        "color": "Rose Gold With Pearl",
+                        "price": 7800,
+                        "img": "/assets/watches/watches24.PNG"
+                },
+                {
+                        "id": "123",
+                        "type": "Watches",
+                        "name": "Pulser Watch",
+                        "degem": "W3225",
+                        "color": "Rose Gold With Pearl",
+                        "price": 9000,
+                        "img": "/assets/watches/watches25.PNG"
+                },
+                {
+                        "id": "147",
+                        "type": "Gifts",
+                        "name": "Fantasy sapphire jewelry gift",
+                        "degem": "G1235",
+                        "color": "Silver",
+                        "price": 120,
+                        "img": "/assets/gift/gift5.PNG"
+                },
+                {
+                        "id": "126",
+                        "type": "Sets",
+                        "name": "Golden Spotlight Sets",
+                        "degem": "S9072",
+                        "color": "Gold And Silver",
+                        "price": 100,
+                        "img": "/assets/sets/sets2.PNG"
+                },
+                {
+                        "id": "127",
+                        "type": "Sets",
+                        "name": " Pia Pia Sets",
+                        "degem": "S9073",
+                        "color": "Gold",
+                        "price": 70,
+                        "img": "/assets/sets/sets3.PNG"
+                },
+                {
+                        "id": "38",
+                        "type": "Earrings",
+                        "name": "Classic Gold Hoop Earrings",
+                        "degem": "D3113",
+                        "color": "Red Gold",
+                        "price": 4900,
+                        "img": "/assets/earrings/earrings13.PNG"
+                },
+                {
+                        "id": "39",
+                        "type": "Earrings",
+                        "name": "Silver Earrings with stone",
+                        "degem": "D3114",
+                        "color": "Silver",
+                        "price": 70,
+                        "img": "/assets/earrings/earrings14.PNG"
+                },
+                {
+                        "id": "40",
+                        "type": "Earrings",
+                        "name": "Hoop Earrings",
+                        "degem": "D3115",
+                        "color": "Silver",
+                        "price": 1900,
+                        "img": "/assets/earrings/earrings15.PNG"
+                },
+                {
+                        "id": "96",
+                        "type": "Bracelets",
+                        "name": "Eternal Smile Bracelet",
+                        "degem": "B8921",
+                        "color": "Rose Gold With Pearl",
+                        "price": 120,
+                        "img": "/assets/bracelets/bracelet21.JPG"
+                },
+                {
+                        "id": "97",
+                        "type": "Bracelets",
+                        "name": "Tranquil Moments Bracelet",
+                        "degem": "B8922",
+                        "color": "Rose Gold With Pearl",
+                        "price": 80,
+                        "img": "/assets/bracelets/bracelet22.JPG"
+                },
+                {
+                        "id": "103",
+                        "type": "Watches",
+                        "name": "Swift Timepiece Watch",
+                        "degem": "W3235",
+                        "color": "Rose Gold With Pearl",
+                        "price": 1200,
+                        "img": "/assets/watches/watches5.PNG"
+                },
+                {
+                        "id": "104",
+                        "type": "Watches",
+                        "name": "Techno Timepiece Watch",
+                        "degem": "W3236",
+                        "color": "Rose Gold With Pearl",
+                        "price": 150,
+                        "img": "/assets/watches/watches6.PNG"
+                },
+                {
+                        "id": "94",
+                        "type": "Bracelets",
+                        "name": "Wonderful Enchantment Bracelet",
+                        "degem": "B8919",
+                        "color": "Rose Gold With Pearl",
+                        "price": 4300,
+                        "img": "/assets/bracelets/bracelet19.JPG"
+                },
+                {
+                        "id": "95",
+                        "type": "Bracelets",
+                        "name": "Precious Memories Bracelet",
+                        "degem": "B8920",
+                        "color": "Rose Gold With Pearl",
+                        "price": 250,
+                        "img": "/assets/bracelets/bracelet20.JPG"
+                },
+                {
+                        "id": "105",
+                        "type": "Watches",
+                        "name": "Interstellar Time Watch",
+                        "degem": "W3237",
+                        "color": "Rose Gold With Pearl",
+                        "price": 1900,
+                        "img": "/assets/watches/watches7.PNG"
+                },
+                {
+                        "id": "106",
+                        "type": "Watches",
+                        "name": "Nova Time Watch",
+                        "degem": "W3238",
+                        "color": "Rose Gold With Pearl",
+                        "price": 200,
+                        "img": "/assets/watches/watches8.PNG"
+                },
+                {
+                        "id": "138",
+                        "type": "Sets",
+                        "name": "Ruby Romance Sets",
+                        "degem": "S9014",
+                        "color": "Gold",
+                        "price": 180,
+                        "img": "/assets/sets/sets14.PNG"
+                },
+                {
+                        "id": "139",
+                        "type": "Sets",
+                        "name": "Silver Trimmings Sets",
+                        "degem": "S9015",
+                        "color": "silver",
+                        "price": 270,
+                        "img": "/assets/sets/sets15.PNG"
+                },
+                {
+                        "id": "150",
+                        "type": "Gifts",
+                        "name": "Gold and Ilan jewelry gift",
+                        "degem": "G1238",
+                        "color": "Rose Gold And Silver",
+                        "price": 120,
+                        "img": "/assets/gift/gift8.PNG"
+                },
+                {
+                        "id": "151",
+                        "type": "Gifts",
+                        "name": "A wonderful travel jewelry gift",
+                        "degem": "G1239",
+                        "color": "Silver",
+                        "price": 200,
+                        "img": "/assets/gift/gift9.PNG"
+                },
+                {
+                        "id": "41",
+                        "type": "Earrings",
+                        "name": "Fringe Earrings",
+                        "degem": "D3116",
+                        "color": "Silver",
+                        "price": 2200,
+                        "img": "/assets/earrings/earrings16.PNG"
+                },
+                {
+                        "id": "42",
+                        "type": "Earrings",
+                        "name": "Rectangle Earrings",
+                        "degem": "D3117",
+                        "color": "Silver",
+                        "price": 8300,
+                        "img": "/assets/earrings/earrings17.PNG"
+                },
+                {
+                        "id": "43",
+                        "type": "Earrings",
+                        "name": "Silver Beaded Earrings",
+                        "degem": "D3118",
+                        "color": "Silver",
+                        "price": 400,
+                        "img": "/assets/earrings/earrings18.PNG"
+                },
+                {
+                        "id": "136",
+                        "type": "Sets",
+                        "name": " Dusty Fashion Sets",
+                        "degem": "S9012",
+                        "color": "silver",
+                        "price": 9000,
+                        "img": "/assets/sets/sets12.PNG"
+                },
+                {
+                        "id": "137",
+                        "type": "Sets",
+                        "name": "Golden Haze Sets",
+                        "degem": "S9013",
+                        "color": "Rose Gold",
+                        "price": 8900,
+                        "img": "/assets/sets/sets13.PNG"
+                },
+                {
+                        "id": "152",
+                        "type": "Gifts",
+                        "name": "Oriental exotic jewelry gift",
+                        "degem": "G12310",
+                        "color": "Silver",
+                        "price": 240,
+                        "img": "/assets/gift/gift10.PNG"
+                },
+                {
+                        "id": "153",
+                        "type": "Gifts",
+                        "name": "Silver and lavender jewelry gift",
+                        "degem": "G1211",
+                        "color": "Silver",
+                        "price": 3600,
+                        "img": "/assets/gift/gift11.PNG"
+                },
+                {
+                        "id": "114",
+                        "type": "Watches",
+                        "name": "Transformer Watch",
+                        "degem": "W3216",
+                        "color": "Rose Gold With Pearl",
+                        "price": 300,
+                        "img": "/assets/watches/watches16.PNG"
+                },
+                {
+                        "id": "44",
+                        "type": "Earrings",
+                        "name": "Anise Earrings",
+                        "degem": "D3119",
+                        "color": "Gold",
+                        "price": 7030,
+                        "img": "/assets/earrings/earrings19.PNG"
+                },
+                {
+                        "id": "9",
+                        "type": "Rings",
+                        "name": "Topaz Ring",
+                        "degem": "R2410",
+                        "color": "Silver",
+                        "price": 200,
+                        "img": "/assets/rings/ring10.PNG"
+                },
+                {
+                        "id": "134",
+                        "type": "Sets",
+                        "name": "Singer's Twist Sets",
+                        "degem": "S9010",
+                        "color": "silver",
+                        "price": 2220,
+                        "img": "/assets/sets/sets10.PNG"
+                },
+                {
+                        "id": "135",
+                        "type": "Sets",
+                        "name": " Minty Surround Sets",
+                        "degem": "S9011",
+                        "color": "silver",
+                        "price": 1200,
+                        "img": "/assets/sets/sets11.PNG"
+                },
+                {
+                        "id": "154",
+                        "type": "Gifts",
+                        "name": "Pluto jewelry gift",
+                        "degem": "G1212",
+                        "color": "Rose Gold",
+                        "price": 2670,
+                        "img": "/assets/gift/gift12.PNG"
+                },
+                {
+                        "id": "155",
+                        "type": "Gifts",
+                        "name": "Gold jewelry gift and designs",
+                        "degem": "G1213",
+                        "color": "Gold",
+                        "price": 3000,
+                        "img": "/assets/gift/gift13.PNG"
+                },
+                {
+                        "id": "87",
+                        "type": "Bracelets",
+                        "name": "Wonderful Achievement Bracelet",
+                        "degem": "B8912",
+                        "color": "Pearl",
+                        "price": 6700,
+                        "img": "/assets/bracelets/bracelet12.jpg"
+                },
+                {
+                        "id": "84",
+                        "type": "Bracelets",
+                        "name": "Magical Secrets Bracelet",
+                        "degem": "B8979",
+                        "color": "Gold",
+                        "price": 920,
+                        "img": "/assets/bracelets/bracelet9.jpg"
+                },
+                {
+                        "id": "120",
+                        "type": "Watches",
+                        "name": "Spectrum Watch",
+                        "degem": "W3222",
+                        "color": "Rose Gold With Pearl",
+                        "price": 4320,
+                        "img": "/assets/watches/watches22.PNG"
+                },
+                {
+                        "id": "121",
+                        "type": "Watches",
+                        "name": "Vortex Watch",
+                        "degem": "W3223",
+                        "color": "Rose Gold With Pearl",
+                        "price": 270,
+                        "img": "/assets/watches/watches23.PNG"
+                },
+                {
+                        "id": "128",
+                        "type": "Sets",
+                        "name": "Sapphire Threads Sets",
+                        "degem": "S9074",
+                        "color": "Gold And black",
+                        "price": 120,
+                        "img": "/assets/sets/sets4.PNG"
+                },
+                {
+                        "id": "129",
+                        "type": "Sets",
+                        "name": " Blue Blossoms Sets",
+                        "degem": "S9075",
+                        "color": "Rose Gold",
+                        "price": 8500,
+                        "img": "/assets/sets/sets5.PNG"
+                },
+                {
+                        "id": "158",
+                        "type": "Gifts",
+                        "name": "Flower pot jewelry gift",
+                        "degem": "G1216",
+                        "color": "Gold",
+                        "price": 450,
+                        "img": "/assets/gift/gift16.PNG"
+                },
+                {
+                        "id": "159",
+                        "type": "Gifts",
+                        "name": "Neon and light jewelry gift",
+                        "degem": "G1217",
+                        "color": "Rose Gold",
+                        "price": 60,
+                        "img": "/assets/gift/gift17.PNG"
+                },
+                {
+                        "id": "91",
+                        "type": "Bracelets",
+                        "name": "Impressive Courage Bracelet",
+                        "degem": "B8916",
+                        "color": "Rose Gold With Pearl",
+                        "price": 3400,
+                        "img": "/assets/bracelets/bracelet16.JPG"
+                },
+                {
+                        "id": "45",
+                        "type": "Earrings",
+                        "name": "Moon Earrings",
+                        "degem": "D3120",
+                        "color": "Red Gold",
+                        "price": "3270",
+                        "img": "/assets/earrings/earrings20.PNG"
+                },
+                {
+                        "id": "48",
+                        "type": "Earrings",
+                        "name": "Twist Earrings",
+                        "degem": "D3123",
+                        "color": "Gold",
+                        "price": 220,
+                        "img": "/assets/earrings/earrings23.jpg"
+                },
+                {
+                        "id": "49",
+                        "type": "Earrings",
+                        "name": "Winter Earrings",
+                        "degem": "D3124",
+                        "color": "Gold",
+                        "price": 2600,
+                        "img": "/assets/earrings/earrings24.PNG"
+                },
+                {
+                        "id": "52",
+                        "type": "Necklaces",
+                        "name": "Stormy Sea Necklace",
+                        "degem": "C4582",
+                        "color": "Red Gold",
+                        "price": 5430,
+                        "img": "/assets/chains/chain2.jpg"
+                },
+                {
+                        "id": "28",
+                        "type": "Earrings",
+                        "name": "Beaded Earrings",
+                        "degem": "D3143",
+                        "color": "Gold",
+                        "price": 6700,
+                        "img": "/assets/earrings/earrings3.jpg"
+                },
+                {
+                        "id": "90",
+                        "type": "Bracelets",
+                        "name": "Wonderful Stories Bracelet",
+                        "degem": "B8915",
+                        "color": "Rose Gold With Pearl",
+                        "price": 200,
+                        "img": "/assets/bracelets/bracelet15.JPG"
+                },
+                {
+                        "id": "92",
+                        "type": "Bracelets",
+                        "name": "Endless Happiness Bracelet",
+                        "degem": "B8917",
+                        "color": "Rose Gold With Pearl",
+                        "price": 3200,
+                        "img": "/assets/bracelets/bracelet17.JPG"
+                },
+                {
+                        "id": "93",
+                        "type": "Bracelets",
+                        "name": "Exciting Journey Bracelet",
+                        "degem": "B8918",
+                        "color": "Rose Gold With Pearl",
+                        "price": 2670,
+                        "img": "/assets/bracelets/bracelet18.JPG"
+                },
+                {
+                        "id": "109",
+                        "type": "Watches",
+                        "name": "Eclipsor Watch",
+                        "degem": "W3211",
+                        "color": "Rose Gold With Pearl",
+                        "price": 2220,
+                        "img": "/assets/watches/watches11.PNG"
+                },
+                {
+                        "id": "46",
+                        "type": "Earrings",
+                        "name": "Heart Earrings",
+                        "degem": "D3121",
+                        "color": "Gold",
+                        "price": 260,
+                        "img": "/assets/earrings/earrings21.PNG"
+                },
+                {
+                        "id": "47",
+                        "type": "Earrings",
+                        "name": "North Star Earrings",
+                        "degem": "D3122",
+                        "color": "Red Gold",
+                        "price": 870,
+                        "img": "/assets/earrings/earrings22.PNG"
+                },
+                {
+                        "id": "160",
+                        "type": "Gifts",
+                        "name": "Apple aroma jewelry gift",
+                        "degem": "G1218",
+                        "color": "Gold",
+                        "price": 54,
+                        "img": "/assets/gift/gift18.PNG"
+                },
+                {
+                        "id": "161",
+                        "type": "Gifts",
+                        "name": "Disney flower jewelry gift",
+                        "degem": "G1219",
+                        "color": "Gold",
+                        "price": 300,
+                        "img": "/assets/gift/gift19.PNG"
+                },
+                {
+                        "id": "162",
+                        "type": "Gifts",
+                        "name": "Onyx stone jewelry set",
+                        "degem": "G1220",
+                        "color": "Gold And Silver",
+                        "price": 700,
+                        "img": "/assets/gift/gift20.PNG"
+                },
+                {
+                        "id": "117",
+                        "type": "Watches",
+                        "name": "Aclephso Watch",
+                        "degem": "W3219",
+                        "color": "Rose Gold With Pearl",
+                        "price": 6000,
+                        "img": "/assets/watches/watches19.PNG"
+                },
+                {
+                        "id": "118",
+                        "type": "Watches",
+                        "name": "Quivid Watch",
+                        "degem": "W3220",
+                        "color": "Rose Gold With Pearl",
+                        "price": 4320,
+                        "img": "/assets/watches/watches20.PNG"
+                },
+                {
+                        "id": "119",
+                        "type": "Watches",
+                        "name": "Dimensia Watch",
+                        "degem": "W3221",
+                        "color": "Rose Gold With Pearl",
+                        "price": 6000,
+                        "img": "/assets/watches/watches21.PNG"
+                }
+        ]
+}
