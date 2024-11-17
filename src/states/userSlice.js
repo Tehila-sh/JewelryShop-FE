@@ -8,11 +8,10 @@ export const userSlice = createSlice({
   },
   reducers: {
    actionUser: (state, action) => {
-    console.log(JSON.stringify(action));
-    switch (action.type) {
+    switch (action.payload.type) {
         case 'LOGIN_SUCCESS':
 
-          state.user=action.payload;
+          state.user=action.payload.payload;
           state.isAuthenticated=true;
          break;
         case 'LOGOUT':

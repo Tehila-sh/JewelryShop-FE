@@ -10,7 +10,7 @@ import { actionUser } from '../states/userSlice';
 const Cart = () => {
   window.scrollTo(0, 0);
   const cartItems = useSelector((state) => state.cart.items);
-  const isUserAuthenticated = useSelector((state) => state.isAuthenticated);
+  const user = useSelector((state) => state.user);
   const totalPrice = cartItems.reduce((acc, item) => acc + item.price * item.amount, 0);
 
   const dispatch = useDispatch();
@@ -68,7 +68,7 @@ const Cart = () => {
     // localStorage.setItem('user', JSON.stringify(user));
 
        
-      // navigate('/payment');
+      navigate('/payment');
     } catch (error) {
       setError('Invalid email or password. Please try again.');
     }
@@ -126,7 +126,7 @@ const Cart = () => {
 
             {/* User Info Display */}
             
-              {!isUserAuthenticated&&
+              {!user.isAuthenticated&&
            
             <Box
               component="form"

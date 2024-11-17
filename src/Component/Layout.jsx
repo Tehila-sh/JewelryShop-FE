@@ -10,6 +10,7 @@ import ProductDetailsPopup from '../app/ProductDetailsPopup';
 const Layout = () => {
   window.scrollTo(0, 0)
   const cartItems = useSelector((state) => state.cart.items);
+  const user = useSelector((state) => state.user);
   const cartItemCount = cartItems.reduce((acc, item) => acc + item.amount, 0);
    
   return (
@@ -43,6 +44,9 @@ const Layout = () => {
                   <ShoppingCartIcon />
                 </Badge>
               </IconButton>
+            </Grid>
+            <Grid item>
+              Hello, {user.user?.name}
             </Grid>
           </Grid>
         </Toolbar>
