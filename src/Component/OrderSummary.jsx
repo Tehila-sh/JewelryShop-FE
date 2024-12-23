@@ -1,19 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Typography, Card, CardContent, Divider, List, ListItem, ListItemText, ListItemAvatar, Avatar, Button, Snackbar } from '@mui/material';
-import { CheckCircle } from '@mui/icons-material';
+import { CheckCircle, Paid } from '@mui/icons-material';
 import { clearCart } from '../states/cartSlice';
 import { useNavigate } from 'react-router-dom';
+import { order } from '../services/orderActions';
 
 const OrderSummary = ({ isFormValid }) => {
   const cartItems = useSelector((state) => state.cart.items);
+  const user = useSelector((state) => state.user);
   const totalPrice = cartItems.reduce((total, item) => total + (item.price * item.amount), 0);
   const dispatch = useDispatch();
   const navigate = useNavigate();
+ 
 
-  const handlePay = () => {
+
+  const handlePay =  async() => {
+    
     if (isFormValid) {
-      dispatch(clearCart());
+      const orderData={
+        "userId":user.user.userId,
+        "orderDate": new Date(),
+        "totalAmount": totalPrice,
+       "paymentStatus": "Paid"
+      }
+      
+     await dispatch(order(orderData));
       setTimeout(() => {
         navigate('/postorder');
       }, 2000);

@@ -5,6 +5,7 @@ import { PersonOutline, Phone, LocationOn, MailOutline, CreditCard, CreditCardTw
 import OrderSummary from './OrderSummary';
 import { useNavigate } from 'react-router-dom';
 import { clearCart } from '../states/cartSlice';
+import axios from 'axios';
 
 const Payment = () => {
   
@@ -27,6 +28,45 @@ const Payment = () => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
+
+
+  const handlePayment = async () => {
+  const user = JSON.parse(localStorage.getItem('user')); // Retrieve user details
+  const cartItems = JSON.parse(localStorage.getItem('cart')); // Retrieve cart items
+
+  if (!user) {
+    alert("You need to log in to complete the payment.");
+    navigate('/login');
+    return;
+  }
+
+  const totalAmount = cartItems.reduce((acc, item) => acc + item.price * item.amount, 0);
+
+  const orderData = {
+    UserId: user.id, 
+    OrderDate: new Date().toISOString(), 
+    TotalAmount: totalAmount,
+    PaymentStatus: "Paid", // You can update this based on the payment gateway response if applicable
+   
+   
+     // Ensure this matches your UserId field in the database
+  };
+
+  try {
+    // Send the POST request
+    const response = await axios.post('http://localhost:5095/api/Order', orderData);
+
+    if (response.status === 201) {
+      alert("Payment successful! Your order has been saved.");
+      dispatch(clearCart()); // Clear the cart after successful payment
+      localStorage.removeItem('cart'); // Optionally clear cart from localStorage
+      navigate('/jewelryList'); // Redirect user to the Jewelry List or another page
+    }
+  } catch (error) {
+    console.error("Error saving the order:", error);
+    alert("An error occurred while processing your payment. Please try again.");
+  }
+};
 
   useEffect(() => {
     const validate = () => {

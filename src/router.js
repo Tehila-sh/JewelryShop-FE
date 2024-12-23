@@ -13,6 +13,8 @@ import PostOrder from './Component/PostOrder';
 
 import Register from './Component/Register';
 import Login from './Component/Login';
+import UserDetails from './Component/UserDetails';
+import Orders from './Component/Orders';
 
 
 const router = createBrowserRouter([
@@ -69,6 +71,13 @@ const router = createBrowserRouter([
       {
         path: '/register',
         element: <Register/>,
+      },
+      {
+        path: '/userDetails',
+        element: <UserDetails/>,
+      },{
+        path: '/myOrders',
+        element: <Orders/>,
       },
       
     ],

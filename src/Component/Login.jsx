@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, TextField, Box, Typography } from '@mui/material';
+import { Button, TextField, Box, Typography, Grid } from '@mui/material';
 import { useDispatch } from 'react-redux';
 
 import { useNavigate } from 'react-router-dom';
@@ -14,6 +14,9 @@ const Login = () => {
   const [password, setPassword] = useState('');
   const [error, setError] = useState(null);
 
+  const handregister = (e) => {
+    navigate('/register'); 
+  }
   const handleLogin = async (e) => {
     e.preventDefault();
 
@@ -24,7 +27,7 @@ const Login = () => {
       
       await dispatch(loginUser(userData));
 
-      navigate('/payment'); 
+      navigate('/'); 
     } catch (error) {
 
       setError('Invalid email or password. Please try again.');
@@ -87,6 +90,15 @@ const Login = () => {
       >
         Sign In
       </Button>
+      <Grid container justifyContent="center" sx={{ mt: 2 }}>
+              <Button
+                variant="text"
+                onClick={handregister}
+                sx={{ color: '#013754' }}
+              >
+                 "Don't have an account? Register"
+              </Button>
+            </Grid>
     </Box>
   );
 };

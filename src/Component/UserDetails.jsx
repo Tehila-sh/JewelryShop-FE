@@ -1,42 +1,47 @@
 import React, { useState } from 'react';
 import { Button, TextField, Box, Typography } from '@mui/material';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 
 import { useNavigate } from 'react-router-dom';
-import { registerUser } from '../services/userActions';
+import { editUser, registerUser } from '../services/userActions';
 
-const Register = () => {
+const UserDetails = () => {
+  const user = useSelector((state) => state.user);
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
-  const [firstName, setFirstName] = useState('');
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [firstName, setFirstName] = useState(user.user?.username);
+  const [email, setEmail] = useState(user.user?.email);
+  const [password, setPassword] = useState(user.user?.password);
   const [error, setError] = useState(null);
 
   
-  const handleRegister = async (e) => {
+  const handleEditDetaild = async (e) => {
     e.preventDefault();
 
 
-    const userData = { username: firstName, email, password };
+    const userData = {
+        "username": firstName,
+        "email": email,
+        "password": password
+      }
 
     try {
-    
-      await dispatch(registerUser(userData)); 
+    console.log(JSON.stringify(user))
+      await dispatch(editUser(user.user.userId, userData)); 
 
    
-      navigate('/login'); 
+      navigate('/'); 
     } catch (error) {
   
-      setError('Registration failed. Please try again.');
+      setError('editing failed. Please try again.');
     }
   };
 
   return (
     <Box
       component="form"
-      onSubmit={handleRegister}
+      onSubmit={handleEditDetaild}
       sx={{
         display: 'flex',
         flexDirection: 'column',
@@ -46,7 +51,7 @@ const Register = () => {
       }}
     >
       <Typography variant="h5" align="center" sx={{ mb: 2 }}>
-        Register
+        Edit your Details
       </Typography>
 
 
@@ -97,10 +102,10 @@ const Register = () => {
         variant="contained"
         sx={{ mt: 3, mb: 2 }}
       >
-        Register
+        save
       </Button>
     </Box>
   );
 };
 
-export default Register;
+export default UserDetails;

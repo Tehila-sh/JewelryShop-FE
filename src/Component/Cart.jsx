@@ -60,7 +60,7 @@ const Cart = () => {
     const userData = { email, password };
 
     try {
-      const response = await axios.post('http://localhost:5095/api/Users/login', userData);
+      const response = await axios.get(`http://localhost:5095/api/Users/${userData.email}/${userData.password}`);
       // Assuming the response contains user data
       dispatch(actionUser({ type: 'LOGIN_SUCCESS', payload: response.data }));// Dispatch login action
       // After successful login or registration
@@ -125,71 +125,84 @@ const Cart = () => {
             </Typography>
 
             {/* User Info Display */}
-            
-              {!user.isAuthenticated&&
-           
-            <Box
-              component="form"
-              onSubmit={isLogin ? handleLogin : handleRegister}
-              sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                maxWidth: '400px',
-                margin: 'auto',
-                mt: 4,
-              }}
-            >
-              <MuiTypography variant="h6" align="center" sx={{ mb: 2 }}>
-                {isLogin ? 'Login' : 'Register'} to Proceed
-              </MuiTypography>
+   <Box>
+  {!user.isAuthenticated ? (
+    // Show login/register form when the user is not logged in
+    <Box
+      component="form"
+      onSubmit={isLogin ? handleLogin : handleRegister}
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        maxWidth: '400px',
+        margin: 'auto',
+        mt: 4,
+      }}
+    >
+      <MuiTypography variant="h6" align="center" sx={{ mb: 2 }}>
+        {isLogin ? 'Login' : 'Register'} to Proceed
+      </MuiTypography>
 
-              {/* Conditional fields */}
-              {!isLogin && (
-                <TextField
-                  label="User Name"
-                  variant="outlined"
-                  fullWidth
-                  required
-                  value={username}
-                  onChange={(e) => setUsername(e.target.value)}
-                  sx={{ mb: 2 }}
-                />
-              )}
+      {/* Conditional fields */}
+      {!isLogin && (
+        <TextField
+          label="User Name"
+          variant="outlined"
+          fullWidth
+          required
+          value={username}
+          onChange={(e) => setUsername(e.target.value)}
+          sx={{ mb: 2 }}
+        />
+      )}
 
-              <TextField
-                label="Email"
-                type="email"
-                variant="outlined"
-                fullWidth
-                required
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                sx={{ mb: 2 }}
-              />
+      <TextField
+        label="Email"
+        type="email"
+        variant="outlined"
+        fullWidth
+        required
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+        sx={{ mb: 2 }}
+      />
 
-              <TextField
-                label="Password"
-                type="password"
-                variant="outlined"
-                fullWidth
-                required
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                sx={{ mb: 2 }}
-              />
+      <TextField
+        label="Password"
+        type="password"
+        variant="outlined"
+        fullWidth
+        required
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
+        sx={{ mb: 2 }}
+      />
 
-              {/* Error message */}
-              {error && (
-                <MuiTypography color="error" align="center" sx={{ mb: 2 }}>
-                  {error}
-                </MuiTypography>
-              )}
+      {/* Error message */}
+      {error && (
+        <MuiTypography color="error" align="center" sx={{ mb: 2 }}>
+          {error}
+        </MuiTypography>
+      )}
 
-              {/* Submit Button */}
-              <Button type="submit" fullWidth variant="contained" sx={{ mt: 3, mb: 2 }}>
-                {isLogin ? 'Sign In' : 'Register'}
-              </Button>
-            </Box>}
+      {/* Submit Button */}
+      <Button type="submit" fullWidth variant="contained" sx={{ mt: 3, mb: 2 }}>
+        {isLogin ? 'Sign In' : 'Register'}
+      </Button>
+    </Box>
+  ) : (
+    // Show the "Proceed to Payment" button when the user is logged in
+    <Button
+      variant="contained"
+      color="primary"
+      fullWidth
+      onClick={() => navigate('/payment')}
+      sx={{ mt: 3, bgcolor: '#013754' }}
+    >
+      Proceed to Payment
+    </Button>
+  )}
+</Box>
 
             {/* Toggle between Login and Register */}
             <Grid container justifyContent="center" sx={{ mt: 2 }}>
@@ -210,7 +223,7 @@ const Cart = () => {
               color="primary"
               fullWidth
               component="Link"
-              to="/jewelryList"
+              onClick={() => navigate('/jewelryList')}
               sx={{ mt: 2, bgcolor: '#013754' }}
             >
               Return to the Jewelry List
